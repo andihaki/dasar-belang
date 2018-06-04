@@ -148,3 +148,34 @@ switch point {
 }
 ```
 > golang **ga dukung** ternary operation boleh = abc == true ? "boleh" : "ga boleh"
+
+# perulangan
+## for
+- standar
+```
+for i := 0; i < 5; i++ {
+    fmt.Println("Nomor ke: ", i)
+}
+```
+- pertengahan
+```
+var i = 0
+
+for i < 5 {
+    fmt.Println("Nomor ke: ", i)
+    i++
+}
+```
+- whaatt
+```
+var i = 0
+
+for {
+    fmt.Println("Nomor ke: ", i)
+    i++
+    if i == 5 {
+        break
+    }
+}
+```
+
